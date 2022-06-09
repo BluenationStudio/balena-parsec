@@ -1,0 +1,7 @@
+version: '2'
+services:
+    parsec:
+        build: 
+          context: .
+          dockerfile: ./parsec/Dockerfile
+        network_mode: host
